@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+            .menu {
+                text-align: right;
+                list-style: none;
+                
+            }
+            .menu > li {
+                display: inline;
+                padding: 3px;
+            }
+            .main {
+                text-align: center;
+            }
+            .search-bar {
+                border-radius: 8px;
+                width: 400px;
+            }
+            .button {
+                margin: 10px;
+            }
+        </style>
+    </head>
+    <body>
+         <!-- Menu -->
+        <ul class="menu">
+            <li><a href="index.html">Goole Search</a></li>
+
+        </ul>
+        <!-- Google Image -->
+        <div class="main">
+            <img src="googleimg_log.png" alt="Google" style="width: 300px" >
+        </div>
+        <form style="text-align: center;"class="search" action="https://google.com/search">
+            <input  class="search-bar" type="text" name="q">
+            <input type="hidden" name="tbm" value="isch">
+            
+            <div>
+                <input class="button"  type="submit" value="Google Image Search">
+                
+            </div>
+           
+        </form>
+
+       
+        
+    </body>
+
+   
+</html>
